@@ -3,14 +3,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const imgur_1 = __importDefault(require("@/hosts/imgur"));
-const reddit_1 = __importDefault(require("@/hosts/reddit"));
-const instagram_1 = __importDefault(require("@/hosts/instagram"));
-const facebook_1 = __importDefault(require("@/hosts/facebook"));
-const twitter_1 = __importDefault(require("@/hosts/twitter"));
-const pinterest_1 = __importDefault(require("@/hosts/pinterest"));
-const tiktok_1 = __importDefault(require("@/hosts/tiktok"));
-const youtube_1 = __importDefault(require("@/hosts/youtube"));
+const imgur_1 = __importDefault(require("./hosts/imgur"));
+const reddit_1 = __importDefault(require("./hosts/reddit"));
+const instagram_1 = __importDefault(require("./hosts/instagram"));
+const facebook_1 = __importDefault(require("./hosts/facebook"));
+const twitter_1 = __importDefault(require("./hosts/twitter"));
+const pinterest_1 = __importDefault(require("./hosts/pinterest"));
+const tiktok_1 = __importDefault(require("./hosts/tiktok"));
+const youtube_1 = __importDefault(require("./hosts/youtube"));
 const downloaders = {
     imgur: new imgur_1.default(),
     reddit: new reddit_1.default(),
